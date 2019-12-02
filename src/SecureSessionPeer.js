@@ -55,8 +55,6 @@ module.exports = async () => {
             }
         },
         receive: () => {
-            console.log(_client);
-            console.log(_server);
             let msg = null;
 
             if (isClient) {
